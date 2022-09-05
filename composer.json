@@ -1,0 +1,17 @@
+{
+    "name": "agence-adeliom/lumberjack-taxonomy",
+    "require": {
+        "php": ">=8.0.2",
+        "rareloop/lumberjack-core": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adeliom\\Lumberjack\\Taxonomy\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
